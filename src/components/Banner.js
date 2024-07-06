@@ -60,7 +60,7 @@ export const Banner = () => {
                   <p>
                   Graduated with a master's degree in Computer Science and prossessing 4 years of professional experience in Fullstack developpement,
                   I am a dedicated software engineer passionate about developing efficient and scalable solutions.
-                  My journey in software engineering has equipped me with a strong foundation in both front-end and back-end technologies such as Python, Angular, and Java, enabling me to tackle complex challenges and continuously innovate in the tech industry.
+                  My journey in software engineering has equipped me with a strong foundation in both front-end and back-end technologies such as Typescript/Javascript, Python and Java, enabling me to tackle complex challenges and continuously innovate in the tech industry.
                   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}

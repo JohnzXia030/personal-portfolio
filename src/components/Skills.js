@@ -35,23 +35,34 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>As a dedicated and versatile software engineer, I possess a comprehensive set of skills that enable me to design, develop, and deploy high-quality software solutions. My expertise spans across various programming languages, frameworks, and tools, ensuring I can tackle diverse challenges in the tech landscape. Below is a snapshot of my key skills and proficiencies.
+                        </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Programming languages</h5>
+                                <p>Java, Python, PHP, Javascript/Typescript</p>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Frameworks</h5>
+                                <p>Angular, Spring(Maven), Flask/Django, Symfony</p>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Databases</h5>
+                                <p>MySQL, MongoDB</p>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image" />  
+                                <h5>Cloud</h5>
+                                <p>Amazon AWS (EC2, S3), Azure</p>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Certifications</h5>
+                                <p>Microsoft: AZ-900<br />  Scaled Agile: SAFe Practitioner (6.0)
+                                </p>
                             </div>
                         </Carousel>
                     </div>
