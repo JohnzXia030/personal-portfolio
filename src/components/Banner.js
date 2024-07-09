@@ -2,8 +2,11 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { useNavigate } from 'react-router-dom';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { HashLink } from 'react-router-hash-link';
+
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -13,6 +16,7 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = [ "Fullstack Developer", "Software Engineer"];
   const period = 2000;
+  const navigate = useNavigate();
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -47,6 +51,10 @@ export const Banner = () => {
     }
   }
 
+  const handleClick = () => {
+    navigate('/');
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -62,7 +70,9 @@ export const Banner = () => {
                   I am a dedicated software engineer passionate about developing efficient and scalable solutions.
                   My journey in software engineering has equipped me with a strong foundation in both front-end and back-end technologies such as Typescript/Javascript, Python and Java, enabling me to tackle complex challenges and continuously innovate in the tech industry.
                   </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <HashLink to='#connect'>
+                  <button onClick={handleClick}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  </HashLink>
               </div>}
             </TrackVisibility>
           </Col>
