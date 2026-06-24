@@ -14,7 +14,11 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Fullstack Developer", "Software Engineer"];
+  const toRotate = [
+    "Software Engineer",
+    "Full-Stack Developer",
+    "Cloud & Data Pipeline Engineer"
+  ];
   const period = 2000;
   const navigate = useNavigate();
 
@@ -66,7 +70,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Jiangzhou XIA`} <span className="txt-rotate" dataPeriod="1000"><span className="wrap">{text}</span></span></h1>
                   <p>
-                  Graduated with a master's degree in Computer Science and prossessing 4 years of professional experience in Fullstack developpement,
+                  Graduated with a master's degree in Computer Science and prossessing 5 years of professional experience in Fullstack developpement,
                   I am a dedicated software engineer passionate about developing efficient and scalable solutions.
                   My journey in software engineering has equipped me with a strong foundation in both front-end and back-end technologies such as Typescript/Javascript, Python and Java, enabling me to tackle complex challenges and continuously innovate in the tech industry.
                   </p>

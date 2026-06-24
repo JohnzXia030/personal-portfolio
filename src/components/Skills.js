@@ -41,22 +41,27 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Programming languages</h5>
-                                <p>Java, Python, PHP, Javascript/Typescript</p>
+                                <p>Java, Python, C#, PHP, Javascript/Typescript</p>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Frameworks</h5>
-                                <p>Angular, Spring(Maven), Flask/Django, Symfony</p>
+                                <img src={meter1} alt="Backend frameworks" />
+                                <h5>Backend & Frameworks</h5>
+                                <p>Spring Boot, .NET Core, Flask, Django, Symfony</p>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Databases</h5>
-                                <p>MySQL, MongoDB</p>
+                                <img src={meter1} alt="Frontend frameworks" />
+                                <h5>Frontend</h5>
+                                <p>Angular, React, NgRx, HTML, CSS, SCSS</p>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />  
-                                <h5>Cloud</h5>
-                                <p>Amazon AWS (EC2, S3), Azure</p>
+                                <img src={meter1} alt="Databases and messaging" />
+                                <h5>Databases & Messaging</h5>
+                                <p>SQL Server, MySQL, MongoDB, Couchbase, Kafka</p>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Cloud and DevOps" />
+                                <h5>Cloud & DevOps</h5>
+                                <p>Azure, AWS, Docker, CI/CD, GitHub Actions, Azure DevOps</p>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
